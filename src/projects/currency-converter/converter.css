@@ -1,0 +1,64 @@
+
+
+.converterContainer {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.card {
+  background: white;
+  width: 380px;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+select {
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.result {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 12px;
+  background: #1345ba;
+}
+.group label{
+  color: #1556ef;
+  font-weight: bold;
+}

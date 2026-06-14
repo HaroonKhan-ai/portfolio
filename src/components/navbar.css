@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 12px 20px;
+  
+}
+
+.name{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    
+   
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+    
+    .name{
+        text-align: center;
+    }
+    
+}

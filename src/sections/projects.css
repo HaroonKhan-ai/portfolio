@@ -1,0 +1,29 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.website{
+width: 200px;
+height: 210px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 3px;
+
+}
+.website img{
+    width: 200px;
+    border: 2px solid rgb(68, 62, 62);
+   border-radius: 5px;
+
+}
+.website h3{
+    text-align: center;
+    color: rgb(243, 236, 236);
+    text-decoration: underline;
+}

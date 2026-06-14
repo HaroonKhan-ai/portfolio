@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  /* Softer, premium gradient */
+  background: linear-gradient(135deg, #1e1b4b, #2a5298);
+  color: #f3f4f6;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+  min-height: calc(100vh - 80px); /* Adjusts for standard navbar heights */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.right {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.highlight {
+  background: linear-gradient(to right, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.right h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #93c5fd;
+}
+
+.right p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+}
+
+/* --- BUTTONS --- */
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 30px; /* Modern pill shapes */
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.primary {
+  background: #ffffff;
+  color: #1e1b4b;
+}
+
+.primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.secondary {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: translateY(-3px);
+}
+
+
+.left {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+}
+
+.left img {
+  height: 280px;
+  object-fit: contain; 
+  border-radius: 12px; 
+  border: 3px solid rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 50px 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-card span {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: #a78bfa;
+  font-weight: 700;
+}
+
+.contact-card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact-card p {
+  color: #94a3b8;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 40px;
+    padding-top: 40px;
+  }
+
+  .right h1 {
+    font-size: 2.5rem;
+  }
+
+  .right p {
+    margin: 0 auto;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .left img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .contact-card {
+    padding: 35px 20px;
+  }
+
+  .contact-card h2 {
+    font-size: 1.6rem;
+  }
+}
