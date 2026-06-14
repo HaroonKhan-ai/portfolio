@@ -49,6 +49,7 @@ function App() {
             <p>My inbox is always open. Drop me an email and I'll get back to you as soon as possible!</p>
             
             <h2>heroharoon784@gmail.com</h2>
+            <a href="https://github.com/HaroonKhan-ai" target="_blank">GitHub</a>
 
           </div>
         </section>
